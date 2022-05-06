@@ -1,0 +1,21 @@
+.FormWrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    top: 5%;
+    right: 15%;
+}
+
+.Header {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: white;
+}
+
+@media (max-width: 1500px){
+    .Form {
+        width: 35%;
+    }
+}

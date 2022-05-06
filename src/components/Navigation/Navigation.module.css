@@ -1,0 +1,43 @@
+.Navigation {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    background-color: #3b233e;
+    padding: 2px 0;
+    /* background-image: url('/src/assets/Icons/background.jpg'); */
+    background-repeat: no-repeat;
+}
+
+.Header {
+    font-size: 1.6em;
+    padding-right: 42px;
+    margin: auto 0;
+    color: white;
+    text-shadow: 0 1px 0 black;
+}
+
+.Cart {
+    width: 32px;
+    height: 32px;
+    background-image: url('/src/assets/Icons/cart-32.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Navigation input {
+    width: 45%;
+    margin: auto;
+    border: none;
+    background-color: rgba(255, 255, 255);
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 4px;
+    padding: 6px 6px;
+    outline: none;
+    color: black;
+}
+
+.Navigation input::placeholder{
+    color: black;
+    font-size: 1.1em
+}
